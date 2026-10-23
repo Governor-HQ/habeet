@@ -1,0 +1,15 @@
+{
+  "name": "habeet",
+  "short_name": "habeet",
+  "description": "A free, simple habit tracker. No account. Your data stays on your device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F0ECE6",
+  "theme_color": "#2F7A68",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

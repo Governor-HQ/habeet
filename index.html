@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>habeet</title>
+  <meta name="description" content="A free, simple habit tracker. Timed and counted habits, streaks, and sync across your devices.">
+  <meta name="theme-color" content="#F0ECE6">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="habeet">
+  <link rel="preload" href="fonts/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="shell">
+    <nav class="side" id="side" aria-label="Main"></nav>
+    <main id="view"></main>
+  </div>
+  <nav class="tabbar" id="tabs" aria-label="Main"></nav>
+  <input type="file" id="file" accept="application/json,.json" hidden>
+  <noscript><p style="padding:24px">habeet needs JavaScript to run.</p></noscript>
+  <script src="js/logic.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/ideas.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/cloud.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
